@@ -31,58 +31,58 @@ def font(size, bold=False):
 # Region taxonomy: Americas, Europe, Africa, Middle East, South Asia,
 # East Asia, Oceania. Eighteen editorial fields are assigned explicitly.
 briefs = [
-('SOLOMONS PICK AUSTRALIA OVER CHINA','Security treaty picks Canberra; no foreign military base.','Reuters / AP','Oceania','Diplomacy','flag'),
-('NORTH KOREA EXPELS SWISS ENVOY','48 hours to leave over Songdowon camp sanctions.','Reuters / AP','East Asia','Diplomacy','flag'),
+('NZ COALITION ONE SEAT SHORT','Final tally leaves Luxon’s bloc seeking Opportunity’s support.','BBC','Oceania','Politics','flag'),
+('KIM URGES WIDER TACTICAL NUCLEAR DEPLOYMENT','North Korea’s leader calls for weapons across more missions.','Al Jazeera','East Asia','Defence','flag'),
 ("DURAN DURAN’S ANDY TAYLOR DIES AT 65",'Prostate cancer; co-wrote “Hungry Like the Wolf” and “Rio”.','Reuters / AP','Europe','Culture','music'),
 ('INDIA: HASINA RETURN SEPARATE FROM EXTRADITION','Delhi separates voluntary return from Dhaka’s request; death sentence at home.','Reuters','South Asia','Diplomacy',None),
-('TAIWAN SHARES SINK 1,927 POINTS','Closes 38,195.43; Taiwan dollar weakens past 33 per US dollar.','wire','East Asia','Markets','chart'),
+('SOUTH KOREA RAISES KEY RATE TO 3.25%','Central bank lifts rates as chip demand fuels growth.','Al Jazeera','East Asia','Markets','chart'),
 ('FED BEIGE BOOK: MODEST GROWTH','Wage gains and persistent price pressure across US districts.','wire','Americas','Economy',None),
 ('US TIGHTENS AI CHIP ACCESS','Remote-access rules tighten; thousands of Nvidia B300 GPUs seek buyers.','wire','Americas','Technology','chip'),
-('ECONOMISTS WARN OF AI BUBBLE','A burst could exceed the dot-com crisis impact.','wire','Americas','Economy',None),
-('F-15EX FIGHTERS UNVEILED AT KADENA','US Air Force shows new fighters at its Okinawa base.','wire','East Asia','Defence','plane'),
+('THANKSGIVING MEAL COSTS CLIMB','Century Foundation puts a typical dinner’s annual rise at 11%.','Al Jazeera','Americas','Economy',None),
+('UKRAINE SAYS FIVE RUSSIAN JETS HIT','Kyiv reports damage at Savasleyka airbase east of Moscow.','Reuters / AJ','Europe','Defence','plane'),
 ('INDIA MARKS CONSTITUTION DAY','Samvidhan Divas: 77 years since adoption.','wire','South Asia','Politics','book'),
 ('MUMBAI REMEMBERS 26/11','Nationwide tributes on the attacks’ 18th anniversary.','wire','South Asia','Culture',None),
-('IITs TO ADD 6,000 TECH SEATS','Robotics, AI and space technology places from 2027.','wire','South Asia','Education',None),
-('INDIA: HUMANS MUST CONTROL AI IN WAR','Delhi urges human judgement in military AI operations.','wire','South Asia','Defence',None),
-('1,220 CRICKETERS ENTER IPL AUCTION','Registrations pour in for the IPL 2027 auction.','wire','South Asia','Sport','ball'),
-('FLIPKART CEO TO STEP DOWN','Kalyan Krishnamurthy will leave in December, reports say.','wire','South Asia','Business',None),
-('BANGLADESH RAISES GARMENT WAGE 36%','Entry-level garment workers’ minimum monthly pay jumps.','wire','South Asia','Labour','shirt'),
+('IDLIB SCHOOL REOPENS AMID RUINS','Syrian pupils return to classrooms missing doors and windows.','Al Jazeera','Middle East','Education',None),
+('IRAQ DENIES TROOP MOVEMENTS TOWARD KURDS','Baghdad rejects reports of army units moving toward Kurdistan.','Al Jazeera','Middle East','Defence',None),
+('LEBRON EXTENDS TRIPLE-DOUBLE AGE RECORD','James posts 25 points, 12 assists and 10 rebounds for Philadelphia.','Al Jazeera','Americas','Sport','ball'),
+('EUROZONE BACKS DE COS FOR ECB CHIEF','Member states recommend the Spaniard to succeed Lagarde.','Al Jazeera','Europe','Economy',None),
+('BANGLADESH PAY PROTESTS FLARE AGAIN','Garment workers clash with police over low wages.','Al Jazeera','South Asia','Labour','shirt'),
 ('GUKESH DRAWS GAME 2 IN 20 MOVES','World champion shares point with Sindarov in Geneva.','wire','Europe','Sport',None),
-('ASTEROID DEFENCE CRATER REVEALED','Close-ups show crater from Earth’s deliberate impact test.','wire','Americas','Science','asteroid'),
-('WOLBACHIA MOSQUITOES CUT INFECTIONS 68%','Brazil release programme cuts mosquito-borne viral infections.','wire','Americas','Health','mosquito'),
-('EMIRATES TOPS AIRLINE RANKINGS','Dubai carrier leads global rankings; reliability in focus.','wire','Middle East','Business',None),
-('GUTERRES PRAISES COLOMBIA PEACE','UN chief hails a decade of progress since peace accord.','UN','Americas','Diplomacy',None),
+('JUPITER-SIZED INFANT PLANET CONFIRMED','Hawaii’s Keck observes Elias 2-24 b, under a million years old.','Akashvani','Americas','Science','asteroid'),
+('LOW-COST HIV PREVENTION JAB REACHES AFRICA','Zambia receives the first generic lenacapavir shipment.','BBC','Africa','Health','mosquito'),
+('PUERTO RICO COURT ENDS LUMA CONTRACT','A 5–4 ruling allows a year to replace the power-grid operator.','Al Jazeera','Americas','Business',None),
+('QATAR AND EGYPT DISCUSS GAZA TRUCE','Tamim and Sisi meet in Cairo to coordinate regional diplomacy.','Al Jazeera','Middle East','Diplomacy',None),
 ('TEMPUS TO BUY PERSONALIS FOR $600M','Cash-election merger agreement announced.','Investing.com','Americas','Business',None),
-('META FACES CONGRESS ON SUSPENDED ACCOUNTS','Officials meet lawmakers over account suspensions.','wire','Americas','Technology',None),
+('FIFA CONFIRMS DATA THEFT','Cyberattack exposes a limited set of personal and business data.','Al Jazeera','Europe','Technology',None),
 ('LIKUD APPEALS ELECTION RESULTS','Party seeks reruns at 120 polling stations.','Jerusalem Post','Middle East','Politics',None),
 ('ISRAEL STRIKE KILLS HAMAS OFFICIAL','Al-Shati: Abu al-Ouf, wife and two daughters killed, medics say.','AP','Middle East','Security',None),
-('IRAN NAMES PALANTIR AND ANTHROPIC AT UN','Tehran says US automated systems fed coordinates for 2,000 strikes.','CBS','Middle East','Security',None),
-('INTRUDER BREACHES US TREASURY UNIT','Break-in hits financial crimes unit’s systems.','Newsweek','Americas','Security',None),
-('ISRAEL HOLDS 48 GAZA PRISONERS PAST TERMS','Palestinian commission says detainees kept after sentences expire.','Al Jazeera','Middle East','Security',None),
-('XI’S GRAFT PROBE HITS SHANGHAI STAR','Investigation upends China’s traditional path to power.','BBC','East Asia','Politics',None),
-('RUSSIA’S OWN FIGURES: NEARLY 500,000 LOST','Moscow’s numbers put Ukraine war dead near half a million.','BBC','Europe','Security',None),
-('COLOMBIA POLICE FREE 20 HOSTAGES','Supermarket stormed to end a 17-hour ordeal.','wire','Americas','Security',None),
-('US ATTORNEY GENERAL DODGES NVIDIA QUESTIONS','AG declines to answer on the Nvidia investigation.','wire','Americas','Politics',None),
-('AMERICA CELEBRATES THANKSGIVING','Parades and family tables on November’s fourth Thursday.','wire','Americas','Culture','table'),
+('SYRIA CHECKPOINT ATTACK KILLS TWO','Authorities blame ISIL for the deadly assault in Hasakah.','Al Jazeera','Middle East','Security',None),
+('JUDGE BLOCKS EARLY ABC LICENCE REVIEW','Injunction bars FCC hearings on eight Disney-owned stations.','Al Jazeera','Americas','Politics',None),
+('UN TRIBUNAL REJECTS UNRWA FIRING GROUNDS','Ruling disputes Israeli evidence used to dismiss Gaza staff.','Al Jazeera','Middle East','Security',None),
+('ZAMBIA BANS TERM-LIMIT PROTEST','Police cite rival rallies in blocking an anti-extension march.','Al Jazeera','Africa','Politics',None),
+('GUINEA-BISSAU DELAYS ELECTIONS TO 2028','Military rulers postpone the vote meant to restore civilian rule.','Al Jazeera','Africa','Politics',None),
+('JUDGE BLOCKS NEW CITIZENSHIP RESTRICTIONS','US ruling rejects another attempt to narrow birthright citizenship.','Al Jazeera','Americas','Politics',None),
+('AMODEI REJECTS AI CONTROL OF GOVERNANCE','Anthropic chief says AI should answer to democratic processes.','Al Jazeera','Americas','Technology',None),
+('AMERICA CELEBRATES THANKSGIVING','Families gather as storms delay New York’s parade to Saturday.','Al Jazeera','Americas','Culture','table'),
 ('OPEC+ MEETS SUNDAY ON 2027 OUTPUT','Cartel weighs production as surplus fears cap oil gains.','Reuters','Middle East','Energy',None),
-('INDIA CONDEMNS RIYADH ATTACK','Delhi condemns tower strike after two Indians are injured.','wire','South Asia','Diplomacy',None),
+('BRAZIL REJECTS NEW US TARIFF PROPOSALS','Brasilia calls the proposed trade measures unacceptable.','Al Jazeera','Americas','Trade',None),
 ('TAIPEI: 15% IS LOWEST TIER','Executive Yuan says US rate is not stacked on existing tariffs.','wire','East Asia','Trade',None),
 ('MEXICO AND NORWAY SPARED','USTR makes no excess-capacity finding against either for now.','USTR','Americas','Trade',None),
 ('US CRUDE STOCKS BUILD LESS THAN EXPECTED','Smaller inventory rise supports prices alongside Gulf risk.','Reuters','Americas','Energy',None),
-('SAUDI: NO INJURIES AT RAS TANURA','Coalition’s initial assessment: falling drone fragments, no injuries.','Reuters','Middle East','Energy',None),
-('RAS TANURA: 550,000 BARRELS A DAY','Complex accounts for about 16% of Saudi refining capacity.','The National','Middle East','Energy',None),
-('TANG HONGBO’S THIRD TIANGONG VISIT','Shenzhou-24 commander is first to visit the station three times.','CMSA','East Asia','Space',None),
-('YEAR-LONG MISSION BEGINS','Shenzhou-23’s Zhu Yangshu stays for China’s first year-long mission.','CMSA','East Asia','Space',None),
-('AUSTRALIA TO SPEND $740M IN SOLOMONS','Decade of grants and loans for police, education and infrastructure.','AAP','Oceania','Diplomacy',None),
-('KIM YO JONG: “OPEN HOSTILE ACT”','Leader’s sister condemns Swiss sanctions on children’s camp.','KCNA','East Asia','Diplomacy',None),
-('INDIA’S SPACE ECONOMY TO HIT $45BN','Minister Jitendra Singh: up from $9bn within a decade.','wire','South Asia','Space',None),
+('BANGKOK REFINERY FIRE INJURES NINE','Bangchak shuts production after a blast at Phra Khanong.','Al Jazeera','East Asia','Energy',None),
+('JAZAN REFINERY ATTACK KILLS WORKER','Saudi ministry says a projectile sparks fire and halts some operations.','Al Jazeera','Middle East','Energy',None),
+('MEXICO SEEKS TALKS ON ROCKET DEBRIS','Sheinbaum seeks US talks over suspected SpaceX debris and airspace.','Al Jazeera','Americas','Space',None),
+('CONGO EBOLA CASES TOP 12,000','Fighting forces health workers to evacuate as infections mount.','Al Jazeera','Africa','Health',None),
+('UK–EU TREATY TEXTS PUBLISHED','Food-trade pact has a 10-year exit clause and border-cost provisions.','BBC','Europe','Diplomacy',None),
+('KENYA COURT HALTS QUARANTINE SITE WORK','Judges say the Ebola facility lacked disclosure and public input.','Al Jazeera','Africa','Politics',None),
+('GAZA DOCTORS DESCRIBE MENINGITIS PRESSURE','Rantisi staff report continuing admissions amid medicine shortages.','Al Jazeera','Middle East','Health',None),
 ('KAMARAJAR PORT GETS NEW TERMINAL','Cabinet approves ₹4,288-crore second container terminal.','wire','South Asia','Business',None),
 ]
 leads = [
-('US SLAPS TARIFFS ON 14 PARTNERS','Washington proposes Section 301 tariffs over “structural excess capacity”: 15% for the EU, Japan, South Korea, Taiwan and Switzerland; China faces 20% stacked on existing duties. Public comment and a January hearing come first. Taipei calls 15% the lowest tier.','USTR / Reuters','Americas','Trade'),
+('US PROPOSES TARIFFS ON 14 PARTNERS','Washington proposes Section 301 duties over “structural excess capacity”, including a 15% EU rate with offsets for existing duties; China faces up to 20% under a separate formula with offsets and exemptions. Comments close January 5; hearings begin January 25.','USTR / Reuters','Americas','Trade'),
 ('HOUTHIS CLAIM RAS TANURA STRIKE — BRENT $94.61','Houthis say they hit Saudi Arabia’s largest refinery and Riyadh’s financial district. Saudi air defences down four drones; satellite images show thick black smoke. Brent settles 3.5% higher at $94.61.','Reuters','Middle East','Energy'),
 ('CAIRO TANKER FIRE KILLS 31','Overturned tanker ignites on Cairo’s Ring Road in Giza’s Warraq: at least 31 dead, 21 injured. More than two dozen vehicles charred; road reopens.','AP / Reuters','Africa','Disasters'),
-('PAKISTAN’S FIRST ASTRONAUT ABOARD TIANGONG','Muhammad Zeeshan Ali is the first Pakistani in orbit and Tiangong’s first foreign visitor. Shenzhou-24 docks with Tang Hongbo and Wu Yi; Ali stays about a week for experiments.','Reuters / CMSA','East Asia','Space'),
+('SPACEX WINS SATELLITE GO-AHEAD','US regulators approve up to a million Starmind satellites for orbital AI data centres, with deployment to begin by 2033.','BBC','Americas','Space'),
 ]
 assert len(briefs) == 46 and len(leads) + len(briefs) == 50
 regions = {s[3] for s in briefs + leads}
@@ -209,7 +209,7 @@ def fire(x,y,w,h):
     d.polygon([(x+49,y+45),(x+38,y+28),(x+52,y+34),(x+59,y+10),(x+67,y+31),(x+77,y+23),(x+70,y+46)],fill=RED)
     d.polygon([(x+53,y+44),(x+58,y+25),(x+65,y+44)],fill=GOLD)
 
-def station(x,y,w,h):
+def satellite(x,y,w,h):
     d.rectangle((x,y,x+w,y+h),fill=INK)
     for i in range(12):
         xx=x+((i*43+7)%w)
@@ -223,7 +223,9 @@ def station(x,y,w,h):
         line(xx,y+34,xx+29,y+34,INK)
     d.rounded_rectangle((x+39,y+28,x+78,y+40),3,fill=PAPER)
     line(x+58,y+18,x+58,y+49,PAPER,5)
-    d.polygon([(x+78,y+32),(x+91,y+29),(x+97,y+34),(x+91,y+40),(x+78,y+37)],fill=GOLD)
+    d.arc((x+43,y+8,x+73,y+25),0,180,fill=GOLD,width=2)
+    line(x+58,y+16,x+58,y+28,GOLD)
+    text(x+6,y+h-9,'SATELLITE / CONCEPT',6,True,PAPER)
 
 def bounded_art(painter, x, y, w, h, scale=None):
     global d
@@ -244,7 +246,7 @@ d.rectangle((22,101,1002,121),fill=RED)
 text(30,102,f'50 STORIES · {len(regions)} REGIONS · {len(fields)} FIELDS',12,True,PAPER)
 text(735,103,'THE THURSDAY WORLD BRIEF',11,True,PAPER)
 
-text(22,127,'01 / TRADE SHOCK',11,True,RED)
+text(22,127,'01 / TARIFF PROPOSALS',11,True,RED)
 paragraph(22,140,leads[0][0],36,654,True,leading=38)
 y=paragraph(22,221,leads[0][1],12,654,leading=15)
 text(22,y+1,'[USTR / Reuters]',10,True,MUTED)
@@ -252,7 +254,7 @@ port(702,131,300,144)
 line(22,289,1002,289,INK,2)
 
 # Three equal-width lead cards with compact silhouettes.
-for idx,(xx,art) in enumerate(((22,refinery),(354,fire),(686,station)),1):
+for idx,(xx,art) in enumerate(((22,refinery),(354,fire),(686,satellite)),1):
     s=leads[idx]
     text(xx,296,f'0{idx+1} / '+s[4].upper(),10,True,RED)
     end=paragraph(xx,311,s[0],17,313,True,leading=19)
@@ -265,7 +267,7 @@ for idx,(xx,art) in enumerate(((22,refinery),(354,fire),(686,station)),1):
 # Context band; it is explicitly outside the numbered story sequence.
 d.rectangle((22,447,1002,482),fill=INK)
 text(31,452,'WHY OIL IS BURNING',12,True,PAPER)
-paragraph(221,451,'The US–Iran war is in its ninth month: tanker attacks near the Strait of Hormuz, Houthi strikes on Saudi energy sites — Brent $94.61; OPEC+ meets Sunday on 2027 output. [Reuters / wire]',10,770,fill=PAPER,leading=13)
+paragraph(221,451,'Brent settles at $94.61 after the Ras Tanura claim; a new attack at Jazan kills a worker and disrupts refinery operations, Saudi officials say. OPEC+ meets Sunday on output targets. [Reuters / Al Jazeera]',10,770,fill=PAPER,leading=13)
 text(22,488,'THE REST OF THE WORLD',14,True,INK)
 text(745,492,'46 BRIEFS / READ DOWN EACH COLUMN',9,True,MUTED)
 line(22,508,1002,508,INK)
@@ -312,15 +314,15 @@ for xx in (344,676):
     line(xx,515,xx,866)
 assert max_bottom <= 866
 
-# Seven-point UTC desk timeline.
+# Seven timestamped reports; these are publication times, not event times.
 d.rectangle((22,874,1002,918),fill=INK)
-text(30,877,'HOW THURSDAY UNFOLDED — UTC',10,True,PAPER)
-timeline=[('00:00','Asia wakes to tariffs;','Taipei: 15%, lowest tier'),('01:00','Pakistan’s Ali: first','full day on Tiangong'),('03:00','Cairo fire toll','confirmed at 31'),('05:00','Brent $94.61 after','Ras Tanura claim'),('06:00','India: Constitution Day','& Mumbai anniversary'),('14:00','Thanksgiving parades','begin in New York'),('19:00','OPEC+ ministers gather','ahead of Sunday')]
+text(30,877,'NEWS DESK — REPORT TIMES IN UTC (DAY / TIME)',10,True,PAPER)
+timeline=[('25 / 13:15','US tariff proposals','Reuters'),('25 / 20:57','Brent closes $94.61','Reuters'),('25 / 21:25','Cairo fire kills 31','BBC'),('26 / 00:07','SpaceX satellite approval','BBC'),('26 / 00:52','New York parade delayed','Al Jazeera'),('26 / 14:39','OPEC+ output outlook','Reuters'),('26 / 20:34','Jazan refinery attack','Al Jazeera')]
 for i,(t,a,b) in enumerate(timeline):
     xx=30+i*139
-    text(xx,891,t,8,True,'#e6b76b')
-    text(xx+31,891,a,7,False,PAPER)
-    text(xx,902,b,7,False,PAPER)
+    text(xx,890,t,7,True,'#e6b76b')
+    text(xx,899,a,7,False,PAPER)
+    text(xx,908,b,6,False,PAPER)
 
 # Dotted map with numbered references to the actual numbered story cards.
 text(22,925,'WHERE IT HAPPENED',10,True)
@@ -337,13 +339,13 @@ for xx in range(0,147,3):
     for yy in range(0,49,3):
         if any(inside(xx,yy,p) for p in polys):
             d.ellipse((mapx+xx,mapy+yy,mapx+xx+1,mapy+yy+1),fill=MUTED)
-for px,py,num in [(18,12,'1'),(80,25,'2'),(65,22,'3'),(109,18,'4'),(137,32,'5'),(111,8,'6')]:
+for px,py,num in [(12,7,'1'),(80,25,'2'),(65,22,'3'),(24,17,'4'),(141,46,'5'),(111,8,'6')]:
     d.ellipse((mapx+px-5,mapy+py-5,mapx+px+6,mapy+py+6),fill=RED)
     text(mapx+px-2,mapy+py-5,num,7,True,PAPER)
 text(181,944,'01 US · 02 Saudi Arabia',7)
-text(181,954,'03 Egypt · 04 Tiangong*',7)
-text(181,964,'05 Solomons · 06 N. Korea',7)
-text(181,981,'*orbital story; map reference',6,False,MUTED)
+text(181,954,'03 Egypt · 04 US approval',7)
+text(181,964,'05 New Zealand · 06 N. Korea',7)
+text(181,981,'Numbers match story cards',6,False,MUTED)
 
 # All excluded-news dates are confined to this panel.
 line(333,925,333,992)
@@ -368,7 +370,7 @@ for i,item in enumerate(excluded):
     assert d.textlength(item,font=font(6,True))<=324,item
     text(xx,yy,item,6,True,MUTED)
 d.rectangle((0,1000,1024,1024),fill=RED)
-footer='US tariffs on 14 partners — Houthis claim Ras Tanura, Brent $94.61 — Cairo fire kills 31 — Pakistan’s first astronaut aboard Tiangong.'
+footer='US tariff proposals — Brent $94.61 after Ras Tanura claim — Cairo fire kills 31 — SpaceX wins orbital data satellite approval.'
 assert d.textlength(footer,font=font(10,True))<980
 text(22,1005,footer,10,True,PAPER)
 im.save(ROOT/'entry.png', optimize=True)
